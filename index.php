@@ -23,8 +23,8 @@ $db = new SQLite3('mydb.db');
             <td>time buy</td>
             <td>price buy</td>
             <td>amount</td>
-            <td>time sel</td>
-            <td>time sel</td>
+            <td>price sell</td>
+            <td>time sels</td>
             <td>tozih</td>
         </tr>
         <?php
@@ -48,6 +48,7 @@ $db = new SQLite3('mydb.db');
    <hr>
    <label>asset:</label><input type="text"> <br>
    <label>time buy:</label><input type="text"> <br>
+   <label>time sell:</label><input type="text"> <br>
 
 </body>
 </html>
